@@ -36,6 +36,8 @@ button {
 #red:active {
     background-color: red;
     color: white;
+    transform: scale(1.1) rotate(20deg);
+    transition: 1s all;
 }
 #yellow {
     background-color: lightgray;
@@ -44,6 +46,8 @@ button {
 #yellow:active {
     background-color: yellow;
     color: white;
+    transform: scale(1.1) rotate(20deg);
+    transition: 1s all;
 }
 #green {
     background-color: lightgray;
@@ -52,6 +56,8 @@ button {
 #green:active {
     background-color: green;
     color: white;
+    transform: scale(1.1) rotate(20deg);
+    transition: 1s all;
 }
 #automatic {
     background-color: lightgray;
@@ -60,6 +66,8 @@ button {
 #automatic:active {
     background: linear-gradient(159deg, rgba(17,185,72,1) 0%, rgba(249,241,13,1) 35%, rgba(254,0,0,1) 100%);
     color: white;
+    transform: scale(1.1) rotate(20deg);
+    transition: 1s all;
 }
 
 #stop {
@@ -69,6 +77,8 @@ button {
 #stop:active {
     background: black;
     color: white;
+    transform: scale(1.1) rotate(20deg);
+    transition: 1s all;
 }
 footer {
     text-align: center;
